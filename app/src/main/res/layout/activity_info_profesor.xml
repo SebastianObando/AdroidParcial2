@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InfoProfesorActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/codigo_profesor_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Codigo profesor"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nombre_profesor_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nombre profesor"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/numero_profesor_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Número profesor"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+
+        />
+
+</LinearLayout>

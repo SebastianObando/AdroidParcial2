@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemPrograma"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="7dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/inicial_programa"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/nombre_programa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/inicial_programa"
+            />
+
+        <TextView
+            android:id="@+id/snies_programa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre_programa"
+            android:layout_alignStart="@+id/nombre_programa"
+            android:text="Nombre"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/facultad_programa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snies_programa"
+            android:layout_alignStart="@+id/snies_programa"
+            android:text="Facultad"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CrearProgramaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo_programa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Crear Programa"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_codigo_programa"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/codigo_programa"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="Código programa"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_nombre_programa"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/nombre_programa"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="Nombre programa"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_snies_programa"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/snies_programa"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="SNIES programa"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_facultad_programa"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:id="@+id/facultad_programa"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:hint="Facultad programa"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_guardar_programa"
+        />
+
+</LinearLayout>
